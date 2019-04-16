@@ -5,7 +5,7 @@
     },
 
     "version": {
-        "name": "@VERSION@"
+        "name": "@VERSION@",
         "gpgSign": false
     },
 
