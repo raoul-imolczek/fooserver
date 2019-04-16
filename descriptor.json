@@ -6,6 +6,7 @@
 
     "version": {
         "name": "@VERSION@",
+        "subject": "SNAPSHOT upload",
         "gpgSign": false
     },
 
