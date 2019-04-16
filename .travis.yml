@@ -3,3 +3,9 @@ deploy:
   provider: heroku
   api_key: $HEROKU_API_KEY
   app: foo-server
+deploy:
+  provider: bintray
+  file: "descriptor.json"
+  user: $BINTRAY_USER
+  key: $BINTRAY_API_KEY
+  skip_cleanup: true # to upload artifacts created during the build
